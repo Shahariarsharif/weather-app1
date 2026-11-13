@@ -369,9 +369,9 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: Colors.white.withValues(alpha: 0.16),
+          color: Colors.white.withOpacity(0.16),
           borderRadius: BorderRadius.circular(18),
-          border: Border.all(color: Colors.white.withValues(alpha: 0.2)),
+          border: Border.all(color: Colors.white.withOpacity(0.2)),
         ),
         child: Column(
           children: [
